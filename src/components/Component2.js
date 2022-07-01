@@ -7,7 +7,7 @@ function Component2() {
   // Call notificationHandler where you need
   //eg. after a form submit, user authentication ...
   function handler() {
-    notificationHandler({ type: 'worning', message: 'Worning Message' });
+    notificationHandler({ type: 'warning', message: 'Warning Message' });
   }
   return (
     <>
